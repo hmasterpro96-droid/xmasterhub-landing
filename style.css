@@ -14,3 +14,10 @@ h1{font-size:clamp(48px,7vw,78px);line-height:.98;letter-spacing:-3px;margin-bot
 .final{text-align:center;padding:100px 24px}.final h2{font-size:55px;letter-spacing:-2px}.final>p:not(.eyebrow){color:var(--muted);margin:8px 0 28px}
 footer{border-top:1px solid #ffffff0d;max-width:1160px;margin:auto;padding:30px 24px 45px;display:flex;align-items:center;gap:25px}.links{margin-left:auto}footer p{color:#6f6f7b;font-size:11px}
 @media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:50px;min-height:auto}.visual{height:360px;order:-1}.features,.steps{grid-template-columns:1fr}.features{padding-bottom:65px}h1{font-size:54px}.final h2{font-size:43px}footer{display:block;text-align:center}footer p{margin:15px 0}.links{margin:0}.how{padding:70px 24px}}
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
